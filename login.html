@@ -12,40 +12,70 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <style>
     div.button {
         width: 100%;
         margin-top: 3%;
-      
+
     }
 
     div.center {
         text-align: center;
+
+    }
+    div.content{
+        margin-top: 0%;
+        margin-left: 0%;
+        width: 50%;
+        height: 100%;
+        background-color: #E0BBE4;
+
+    }
+    footer{
+        margin-top: 100%;
+        text-align: center;
         
+        position: absolute;
+  bottom: 0;
+  width: 100%;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .email{
+        font-family:'Bootstrap-icons';
+        content:'\F4D7';
+
     }
 </style>
 
-<body>
-    <div class="container-sm " style="margin-top: 10%;">
+<body style="background-color: #957DAD;">
+    <div class=" content">
         <h1>TIENDA DE ABARROTES</h1>
-        <div class="form-floating mb-3 g-col-6" style="margin-top: 10%;">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
-        </div>
-        <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
-            <a href="" style="color: black;"><p style="margin-top: 2%;"> Forgot password?</p></a>
-
-        </div>
-        <div class="button">
-            <div class="center d-grid gap-2 col-2 mx-auto">
-                <button type="button" class="btn bg-dark btn-lg" style="color:white">Iniciar Sesion</button>
+        <div class="justify-content-md-center container-lg">
+            <div class="form-floating mb-3 col-lg-8" style="margin-top: 10%;">
+                <input type="email" class="form-control email" id="floatingInput" placeholder="name@example.com">
+                
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3 col-lg-8">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+                <a href="" style="color: black;">
+                <p style="margin-top: 2%;"> Forgot password?</p>
+                </a>
+            </div>
+            <div class="button">
+                <div class="center d-grid gap-2 col-2 mx-auto">
+                    <button type="button" class="btn bg-dark btn-lg" style="color:white">Iniciar Sesion</button>
+                </div>
             </div>
         </div>
-
-
+        <p>.</p>
+        <footer>
+            <p>About us</p>
+        </footer>
     </div>
 
 </body>
